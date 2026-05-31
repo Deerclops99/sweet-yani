@@ -242,3 +242,50 @@ footer{
     margin-top:80px;
     font-size:1.1rem;
 }
+
+@media (max-width: 768px) {
+
+    header{
+        padding: 10px;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .slider img{
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .bienvenida h1{
+        font-size: 2rem;
+    }
+
+    .productos-info h2{
+        font-size: 2rem;
+    }
+
+    .productos-info h3{
+        font-size: 1.5rem;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-logo h2{
+        font-size: 2.5rem;
+    }
+
+    .cta h2{
+        font-size: 2rem;
+    }
+
+    .cta p{
+        font-size: 1.2rem;
+    }
+
+}
